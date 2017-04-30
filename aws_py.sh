@@ -8,6 +8,9 @@ sudo apt-get install python3-pip git -y
 pip3 install numpy
 pip3 install networkx
 
+# tmux conf
+wget https://raw.githubusercontent.com/zzjjzzgggg/cloud_conf/master/.tmux.conf
+
 # clone
 git clone https://github.com/zzjjzzgggg/python_packages.git 
 
@@ -18,5 +21,3 @@ cd python_packages
 pwd | tee ~/.local/lib/python$PYV/site-packages/mytools.pth
 
 cd ~
-
-
